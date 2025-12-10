@@ -4,6 +4,7 @@ CentOS7/8版本官方已经归档，默认的安装源无法使用，而且网�
 ## 2. 使用方法
 核心命令：
 ```
+[root@tempoai soft]# wget  https://raw.githubusercontent.com/FlowerBirds/centosv7v8-china-repo/refs/heads/main/install-repo.py
 [root@tempoai soft]# python install-repo.py
 ```
 默认使用Linux自带的Python2环境执行脚本，会自动检测当前系统版本，并生成repo文件。例如：
